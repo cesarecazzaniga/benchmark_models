@@ -9,7 +9,7 @@ The code ```svjHelper_hadronic.py``` takes the following arguments:
   * ```--mZprime```: Z' mass (GeV) (required, search: >= 1.5 TeV)
   * ```--mDark```: dark hadron mass (GeV) (required, suggested: 20 GeV)
   * ```--rinv```: effective invisible fraction (required, suggested: 0.3, 0.5)
-  * ```--alpha```: dark sector coupling strength (required, suggested: peak). Values: peak, low, high. Peak is the value of alpha that maximises the multiplicities, high = 1.5*peak, low = 0.5*peak.
+  * ```--alpha```: dark sector coupling strength (required, suggested: peak). Values: peak, low, high. ```Peak``` is the value of alpha that maximises the multiplicities, ```high = 1.5*peak```, ```low = 0.5*peak```.
   * ```--lambda```: dark confinement scale (GeV) (required in alternative to alpha).
 
 In order to produce your own card use commands like:
